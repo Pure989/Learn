@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="школа языков«Леарн».exe" version="1.0.0.1" publicKeyToken="a7d1d9d7fb454b46" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="school_logo_ico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="школа языков«Леарн»" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="школа языков«Леарн».exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\EntityFramework.resources.dll" size="501456">
+      <assemblyIdentity name="EntityFramework.resources" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HeToYwsrFcDybiQM5EVxXH6AJ2JRQQsKGyA5tpD3Rn0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="школа языков«Леарн».exe" size="947168">
+      <assemblyIdentity name="школа языков«Леарн»" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZLZ2ziwlMO1GGNNcDDn8bY5JVhtdY8vpzpSPSjuiNXg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="school_logo_ico.ico" size="14475">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BX8JJBpltBwpzlgQDjTgmDrXwKSf/8MTUdkMVq2rXuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SchoolModel.Context.tt" size="22935">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ln6eAcoXhmvlivCh9BMvuFfPp+h1ryNTrWkWvL+Jdfs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SchoolModel.tt" size="25280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fvNroabgM7zJ7FUVnWftCb43tdvGw/81LpgM5Ecp7gU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="школа языков«Леарн».exe.config" size="1955">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EFGrxNKVJmwfNaFDsYASG8Hkb+fF9Evg1B5RVH2MBMw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-BKKUVE7\ivans" issuerKeyHash="4f7403d1fd947d6435fc94220e74b476932cbd77" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>y4kSa3HqOa5LAqI8dQ0WigEjTkdBGFzg5ad03L7wNSg=</DigestValue></Reference></SignedInfo><SignatureValue>FaQsVNURiArNDFt51T6bsQD78VUnkQMTBR6orp6/NRkdhqa+wAhiotAx8IehFR5si2/ReCfszJtNS/rJSds9T3YBEfaxyspwqRFpBCGKnUrwmpTrEJFSOPPEjt+dw1PIMZOVA4pcTP1cCVzIfWdb1L1tLcUshDOlhtogCzbFDvY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3yu5enOdojB4LkuA0atMm9Fb1RHq5xL1F1Uwcakc9c7VTraFS+Nb5TPffOXZQEyWiGtB2T3cxRcf6fnJy1mDCsZGJ8IovsGI/Q66QZcPuSS07okdPCw1rmsIJum1G6cqnepmOm27WKHrFqtlA0J/EGYNDmTbSDs2ITMbymeShrk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2835f0bedc74a7e5e05c1841474e23018a160d753ca2024bae39ea716b1289cb" Description="" Url=""><as:assemblyIdentity name="школа языков«Леарн».exe" version="1.0.0.1" publicKeyToken="a7d1d9d7fb454b46" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-BKKUVE7\ivans</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>rvM7ZbNbgLRgd7nLrhyZUBy42kkfEsexHkbFVQ2Uc7U=</DigestValue></Reference></SignedInfo><SignatureValue>ga3wv+/43VEK0Folt3WUBFpWFFFK+9ccDnOMDmEK8Dy/kCiqscJ7VUa9bg9aMSncRUGAgePqBB8Csg4CG6bD7w2p/nComxADckQTfd4+VGfnTYCwFb2C+sYMToCP1oY47xVhUb7ns5a1slshdVk08GUyDQmUQh17YGRKWil8vOE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3yu5enOdojB4LkuA0atMm9Fb1RHq5xL1F1Uwcakc9c7VTraFS+Nb5TPffOXZQEyWiGtB2T3cxRcf6fnJy1mDCsZGJ8IovsGI/Q66QZcPuSS07okdPCw1rmsIJum1G6cqnepmOm27WKHrFqtlA0J/EGYNDmTbSDs2ITMbymeShrk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQF8Ssg5ps/pxBKXCfZp4AOzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEIASwBLAFUAVgBFADcAXABpAHYAYQBuAHMwHhcNMjQxMjExMTIwNjQ2WhcNMjUxMjExMTgwNjQ2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEIASwBLAFUAVgBFADcAXABpAHYAYQBuAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN8ruXpznaIweC5LgNGrTJvRW9UR6ucS9RdVMHGpHPXO1U62hUvjW+Uz33zl2UBMlohrQdk93MUXH+n5yctZgwrGRifCKL7BiP0OukGXD7kktO6JHTwsNa5rCCbptRunKp3qZjptu1ih6xarZQNCfxBmDQ5k20g7NiEzG8pnkoa5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAVG4QNvJ4tCejnQYwT02jDtMMqa4HUm28EYgJvXomevyTmWfKVyymHoOeEQdzZHJCsfmhlpPlN9YzaqW7pv880usywQZfGLHm+tJBDOphbxzyQFKkPML36/EzEaUFrVhlkiN6VVbHVzNHRR0wAHApX/iE96ugKVJIGNuVHDH1uBM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
